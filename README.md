@@ -39,6 +39,8 @@ MiniflareCoreError [ERR_MOUNT]: Error mounting "site"
  ELIFECYCLE  Command failed with exit code 1.
 ```
 
+To repro, clone the repo and run the following:
+
 ```
 $ pnpm install
 $ pnpm dev
