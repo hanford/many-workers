@@ -1,0 +1,4 @@
+name = "site"
+
+[build.upload]
+format = "modules"

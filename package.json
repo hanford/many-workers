@@ -1,0 +1,17 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "main": "./main.js",
+  "private": true,
+  "scripts": {
+    "dev": "miniflare",
+    "deploy": "wrangler publish",
+    "lint": "eslint . --fix --ext .ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "3.14.0",
+    "eslint": "8.19.0",
+    "miniflare": "2.7.1"
+  }
+}

@@ -1,0 +1,10 @@
+.next
+node_modules
+.DS_Store
+out
+package-lock.json
+**next-static-manifest.json
+dist/
+*.log
+*.tsbuildinfo
+.vercel
